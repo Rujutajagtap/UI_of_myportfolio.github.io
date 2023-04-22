@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto+Slab&display=swap');
+
+*{
+   margin:0;
+   padding:0; 
+}
+
+.sidebar{
+    position: absolute;
+    background-color:rgb(252, 249, 61);
+    /* width:434px; */
+    font-family: 'Fira Sans', sans-serif;
+    height:100vh;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.sidebar nav{
+    padding:25px;
+}
+
+.sidebar nav li{
+    list-style:none;/*to remove dots*/
+    font-size:20px;
+    padding:33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;/*to remove underlines*/
+    font-size: 30px;
+    padding: 33px 0;
+    color: black;
+}
+
+.main{
+background-color: rgb(255, 174, 0);
+width:100vw;
+}
+
+.container{
+   display:flex; 
+}
+
+.infoContainer{
+    /* background-color:rgb(202,9,128); */
+    height: 58vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content:space-around;
+}
+
+.devPic img{
+height: 58vh;
+border-image: url(border.png) 30 round;
+padding: 0px;
+border: 4px solid black;
+}
+
+.devInfo{
+   font-size: 10px; 
+   display:flex;
+   justify-content:center;
+   flex-direction:column;
+   font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size:3em;
+}
+
+.name{
+    font-size:3em;
+    font-weight:bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.about{
+    font-size:2.5em;
+}
+
+.moreabout{
+    font-size:2em;
+    margin-top:12px;
+    font-family: 'Fira Sans', sans-serif;
+} 
+
+
+.btn{
+    padding: 5px 14px;
+    border-radius: 20px;
+    color: rgb(233, 219, 21);
+    background-color: rgb(1, 4, 7);
+   font-size: 13px;
+   margin: 12px 0px;
+   cursor: pointer;
+  
+}
+.btn-sm{
+font-size:14px;
+padding:5px 14px;
+margin:12px 0;
+border-radius: 20px;
+color: rgb(233, 219, 21);
+background-color: rgb(1, 4, 7);
+
+
+}
+
+.btn:hover{
+    background-color:rgb(236, 223, 39);
+    color:rgb(1, 10, 19);
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    margin:50px 88px;
+}
+
+.contactform h1{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 23px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.contactform h2{
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 16px;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+.contactform ul li{
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 16px;
+    /* margin-top: 28px; */
+    margin-left: 65px;
+}
+
+.contactform form div{
+    padding:10px 0;
+    display:flex;
+    flex-direction:column;
+}
+
+.contactform form {
+    margin:0 40px;
+
+}
+
+.contactform form div input{
+    /* width:26vw; */
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color:midnightblue;
+    margin: 0 5px;
+    padding:3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width:24px;
+    margin:3px 0;
+}
+
+.blogItem{
+ margin:20px;
+ font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer{
+    margin:88px;
+}
+.blogContainer h1{
+    margin:27px;
+    margin-left:20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+   font-weight: 700;
+   margin-bottom: 7px;
+}
+
+.blogItem a{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 800;
+}
+
+.btn-sm-b{
+    font-size:12px;
+    padding:5px 10px;
+    margin:0px 15px;
+    border-radius: 20px;
+    }
+/* ------------------------------------ */
+    .intro{
+        margin:88px; 
+    }
+
+    .intro h2{
+        font-family: 'Roboto Slab', serif;
+        margin:25px 0px;
+    
+    }
+
+    .intro  ul li{
+     font-family: 'Source Code Pro', monospace;
+     margin:12px;
+     font-weight: 800;
+    }
+
+    .intro  ol li{
+        font-family: 'Source Code Pro', monospace;
+        margin:15px 26px;
+        font-weight: 800;
+       }
+
+    .intro p{
+        font-family: 'Source Code Pro', monospace;
+        margin:12px;
+        font-weight: 900;
+       }
+
+    .skillContainer{
+     padding:12px;   
+    }
+
+    .skillItem{
+      display:flex;  
+      align-items: center;
+      font-family: 'Source Code Pro', monospace;
+      font-weight: 900;
+      margin:12px
+    }
+
+    .skill{
+     width:265px;
+     height:6px;
+     background-color: rgb(11, 182, 11);
+     border:2px solid black ;
+    }
+
+    /* .hundered{
+      width:265px;
+      background-color: blueviolet;
+    } */
+
+    .fifty{
+     width:120px;
+     background-color: aqua;   
+    }
+
+    .t75{
+      width:154px ;
+      background-color: yellow; 
+    }
+/* --------------------------------------------- */
+/* css for service Page */
+
+
+.serviceItem{
+    margin:20px;
+    font-family: 'Fira Sans', sans-serif;
+   }
+   
+   .servicesContainer{
+       margin:92px;
+   }
+   .servicesContainer h1{
+       margin:27px;
+       margin-left:20px;
+       font-family: 'Roboto Slab', serif;
+   }
+   
+   .servicesContainer p{
+       font-family: 'Source Code Pro', monospace;
+      font-weight: 700;
+      margin-bottom: 7px;
+   }
+   .servicesContainer h4{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+   margin-top: 20px;
+   color: brown;
+}
+  
+  /* .servicesContainer h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top:72px;
+    margin-left:120px;
+    } */
+
+/* ----------------------------------------------------- */
+    .sidebarGo{
+        transform: translate(-400px,0px);
+            position:absolute;
+
+    }
+
+    /* to make web page responsive */
+    @media (max-width:914px) {
+        *{
+            /* background-color: rgb(209, 103, 103); */
+        }
+        /* .sidebar{
+            /* side bar collapse by -400px horizontally */
+            /* transform: translate(-400px,0px);
+               /* side bar will absolute i.e hide */
+            /* position:absolute; */
+        /* }  */
+        .buttons{
+            font-size: 6px;
+        }
+
+        .devPic{
+            display: none;  
+          }
+
+          .devInfo{
+            font-size: 10px;
+        }
+
+        .intro,.blogContainer,.contactform,.serviceItem{
+            margin:50px 8px;
+        }
+    }
+
+    .hamburger{
+     position: absolute;   
+     cursor:pointer;
+     top:10px;
+     left:10px;
+    }
+
+    .ham{
+      margin-top:10px;  
+      margin-left: 10px;
+    }
+
+    .cross{
+     margin-left:160px;
+     margin-top:10px;   
+    }
+
+    /* for add more button functionality */
+    #more {display: none;}
+
+
+    .logo img{
+        height: 25vh;
+        border-image: url(border.png) 30 round;
+        padding: 0px;
+        border: 4px solid black;
+        margin:20px;
+        border-radius: 10px;
+        }
